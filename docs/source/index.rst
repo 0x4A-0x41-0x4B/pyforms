@@ -5,7 +5,7 @@ Pyforms
    :width: 80px
    :align: right
 
-`Pyforms <http://pyforms.readthedocs.io/>`_ is a Python 3 framework to develop applications capable of executing in 3 diferent environments, Desktop GUI, Terminal and Web.
+`Pyforms <http://pyforms.readthedocs.io/>`_ is a Python 3 GUI framework to develop applications capable of executing in 3 different environments, Desktop GUI, Terminal and Web.
 
 
 |
@@ -16,7 +16,7 @@ Pyforms
 
 |
 
-The library is composed by three sub-libraries, each one implements the layer responsible to interpret the Pyforms application on each different environment.
+The library is composed of three sub-libraries, each one implements the layer responsible to interpret the Pyforms application on each different environment.
 
 
 .. |gui-logo| image:: /_static/imgs/pyforms-gui.jpg
@@ -37,7 +37,7 @@ The library is composed by three sub-libraries, each one implements the layer re
           `pyforms-gui <https://pyforms-gui.readthedocs.org>`_              `pyforms-web <https://pyforms-web.readthedocs.org>`_         `pyforms-terminal <https://pyforms-terminal.readthedocs.org>`_
    ================================================================= ================================================================= =================================================================
 
-These layers can be user indevidually or toggether if you install pyforms.
+These layers can be user individually or together if you install pyforms.
 
 
 .. |star| image:: /_static/imgs/start.png
