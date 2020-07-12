@@ -6,7 +6,7 @@ If you find this project useful, please, do not forget to ![star it](https://raw
 ---
 
 #### --- IMPORTANT UPDATES ---
-On version v4 Pyforms code was reorganized and splitted in 3 subprojects. Now the GUI, Web and Terminal implementations are located at the repositories
+On version v4 Pyforms code was reorganized and splitted in 3 subprojects. Now the GUI, Web and Terminal implementations are located in the repositories
 
 - [pyforms-gui @ github](https://github.com/UmSenhorQualquer/pyforms-gui)
 - [pyforms-web @ github](https://github.com/UmSenhorQualquer/pyforms-web)
@@ -22,7 +22,7 @@ and their respectives documentation at:
 
 #### Pyforms on PyPI
 
-The libraries are now available on the PyPI repositories, which means you can install them using the commands 
+The libraries are now available in the PyPI repositories, which means you can install them using the commands 
 
 ```bash
 > pip install pyforms-gui
@@ -38,18 +38,18 @@ If you wish you can also install all layers at once, using the command:
 
 #### Impact of these updates to the user
 
-All the modules will be imported in the same way as in previous versions, with the exception of the **BaseWidget** class, that now is imported using the string: 
+All the modules will be imported in the same way as in previous versions, with the exception of the **BaseWidget** class, which is now imported using the string: 
 ```python
 from pyforms.basewidget import BaseWidget
 ```
-The main diference of these updates, is that, it is not mandatory anymore to install all the 3 diferent layers and its requirements. For example, it does not make sense to install **pyforms-gui** and its requirements like pyqt5 on a webserver where we are going to execute pyforms only on Web mode.
+The main difference of these updates, is that, it is no longer mandatory to install all 3 different layers and their requirements. For example, it does not make sense to install **pyforms-gui** and its requirements like pyqt5 on a webserver on which pyforms will only require Web mode.
 
 
 ----
 
 # ![Pyforms logo](docs/source/_static/imgs/pyforms.jpg?raw=true "Screen")
 
-Pyforms is a Python cross-enviroment framework to develop GUI applications, which promotes modular software design and code reusability with minimal effort.
+Pyforms is a Python cross-enviroment framework to develop GUI applications, which promote modular software design and code reusability with minimal effort.
 
 ### It offers:
 * A Python layer of Desktop forms, based on PyQt, OpenGL and other libraries.
